@@ -11,7 +11,9 @@ html,body{
 }
 
 nav{
-    position: fixed;
+    position: absolute;
+    top: 0%;
+    z-index: 9999999999999;
     width: 100%;
     background-color: #ffffff;
     padding-left: 40px;
@@ -866,13 +868,6 @@ legend{
 
 
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-    nav{
-        width: screen;
-    }
-  }
+
 
 
