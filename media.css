@@ -125,13 +125,17 @@
 
     #head #buttons{
         display: flex;
-        justify-items: flex-start;
+        /* align-items: center; */
+        justify-content: space-between;
         margin-top: 25px;
-        gap: 15px;
+        gap: 5px;
+        /* background-color: red; */
+        /* width: 60%; */
+        /* margin-right: 10px; */
           
     }
     #head #buttons #getstarted{
-        padding-left: -200px;
+        padding-left: 0px;
         font-size: 16px;
         font-weight: 600;
        padding: 12px;
@@ -141,7 +145,8 @@
         text-wrap: nowrap;
         color: #0d0d12;
         cursor: pointer;
-        width: 40%;
+        width: 48%;
+        /* display: none; */
     
     
     }
@@ -155,7 +160,8 @@
         color: #ffffff;
         text-wrap: nowrap;
         cursor: pointer;
-        width: 60%;
+        width: 50%;
+        /* margin-right: 50%; */
 
     }
     #content{
@@ -579,7 +585,7 @@
         margin-left: 5%;
         height: fit-content;
         width: 90%;
-        /* background-color: #b41515; */
+        background-color: #082730;
         padding-left: 3%;
         padding-right: 3%;
         border-radius: 30px;
@@ -598,7 +604,7 @@
         width: 100%;
 
         height: 45px;
-        /* background-color: yellow; */
+        background-color: #082730;
         border: 1px solid #898f9e ;
         border-radius: 10px;
         padding-left: 12px;
@@ -628,7 +634,7 @@
         justify-content: left;
         align-items: flex-start;
         padding-top: 20px;
-        /* background-color: #232325; */
+        background-color: #082730;
     
     }
     
@@ -636,7 +642,7 @@
         width: 100%;
         height: 45px;
         border-radius: 10px;
-        background-color: #060607;
+        background-color: #082730;
         margin-bottom: -10vh;
     
     }
